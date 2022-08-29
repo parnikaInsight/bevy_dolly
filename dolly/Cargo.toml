@@ -12,7 +12,8 @@ readme = "crates-io.md"
 
 [dependencies]
 #glam = ">=0.15, <=0.20"
-bevy = { version = "0.8.0", default-features = false }
+bevy = {git = "https://github.com/paxsethorld/bevy-fork.git", branch = "local-0-8-release", default-features = false}
+
 
 #[dev-dependencies]
 #macroquad = "0.3"
