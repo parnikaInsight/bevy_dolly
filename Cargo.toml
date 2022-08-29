@@ -23,8 +23,7 @@ name = "bevy_dolly"
 
 [dependencies]
 dolly = { path = "dolly" }
-bevy = {git = "https://github.com/Bendzae/bevy-fork.git", branch = "local-0-8-release", features = ["jpeg"]} 
-#leafwing-input-manager = "0.4.1"
+bevy = {git = "https://github.com/paxsethorld/bevy-fork.git", branch = "local-0-8-release"}#leafwing-input-manager = "0.4.1"
 
 # [dependencies.bevy]
 # git = "https://github.com/paxsethorld/bevy-fork.git"

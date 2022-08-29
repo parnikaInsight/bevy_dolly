@@ -186,7 +186,15 @@ name = "bevy"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_internal",
+ "bevy_internal 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+]
+
+[[package]]
+name = "bevy"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_internal 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
@@ -194,16 +202,33 @@ name = "bevy_animation"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_asset",
- "bevy_core",
- "bevy_ecs",
- "bevy_hierarchy",
- "bevy_math",
- "bevy_reflect",
- "bevy_time",
- "bevy_transform",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+]
+
+[[package]]
+name = "bevy_animation"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
@@ -211,11 +236,25 @@ name = "bevy_app"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_derive",
- "bevy_ecs",
- "bevy_reflect",
- "bevy_tasks",
- "bevy_utils",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "bevy_app"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "wasm-bindgen",
  "web-sys",
 ]
@@ -226,13 +265,40 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "anyhow",
- "bevy_app",
- "bevy_diagnostic",
- "bevy_ecs",
- "bevy_log",
- "bevy_reflect",
- "bevy_tasks",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_diagnostic 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "crossbeam-channel",
+ "downcast-rs",
+ "fastrand",
+ "js-sys",
+ "ndk-glue 0.5.2",
+ "notify",
+ "parking_lot 0.12.1",
+ "serde",
+ "thiserror",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+]
+
+[[package]]
+name = "bevy_asset"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "anyhow",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_diagnostic 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "crossbeam-channel",
  "downcast-rs",
  "fastrand",
@@ -253,11 +319,26 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "anyhow",
- "bevy_app",
- "bevy_asset",
- "bevy_ecs",
- "bevy_reflect",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "parking_lot 0.12.1",
+ "rodio",
+]
+
+[[package]]
+name = "bevy_audio"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "anyhow",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "parking_lot 0.12.1",
  "rodio",
 ]
@@ -267,12 +348,26 @@ name = "bevy_core"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_math",
- "bevy_reflect",
- "bevy_tasks",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bytemuck",
+]
+
+[[package]]
+name = "bevy_core"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "bytemuck",
 ]
 
@@ -281,14 +376,31 @@ name = "bevy_core_pipeline"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_asset",
- "bevy_derive",
- "bevy_ecs",
- "bevy_reflect",
- "bevy_render",
- "bevy_transform",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "radsort",
+ "serde",
+]
+
+[[package]]
+name = "bevy_core_pipeline"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "radsort",
  "serde",
 ]
@@ -298,7 +410,17 @@ name = "bevy_derive"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_macro_utils",
+ "bevy_macro_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "bevy_derive"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_macro_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "quote",
  "syn",
 ]
@@ -308,18 +430,30 @@ name = "bevy_diagnostic"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_log",
- "bevy_time",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+]
+
+[[package]]
+name = "bevy_diagnostic"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
 name = "bevy_dolly"
 version = "0.0.1"
 dependencies = [
- "bevy",
+ "bevy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "dolly",
 ]
 
@@ -329,11 +463,29 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "async-channel",
- "bevy_ecs_macros",
- "bevy_ptr",
- "bevy_reflect",
- "bevy_tasks",
- "bevy_utils",
+ "bevy_ecs_macros 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ptr 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "downcast-rs",
+ "fixedbitset",
+ "fxhash",
+ "serde",
+ "thread_local",
+]
+
+[[package]]
+name = "bevy_ecs"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "async-channel",
+ "bevy_ecs_macros 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ptr 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "downcast-rs",
  "fixedbitset",
  "fxhash",
@@ -346,7 +498,18 @@ name = "bevy_ecs_macros"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_macro_utils",
+ "bevy_macro_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "bevy_ecs_macros"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_macro_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "proc-macro2",
  "quote",
  "syn",
@@ -357,7 +520,16 @@ name = "bevy_encase_derive"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_macro_utils",
+ "bevy_macro_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "encase_derive_impl",
+]
+
+[[package]]
+name = "bevy_encase_derive"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_macro_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "encase_derive_impl",
 ]
 
@@ -366,10 +538,22 @@ name = "bevy_gilrs"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_input",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "gilrs",
+]
+
+[[package]]
+name = "bevy_gilrs"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "gilrs",
 ]
 
@@ -380,22 +564,50 @@ source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#
 dependencies = [
  "anyhow",
  "base64",
- "bevy_animation",
- "bevy_app",
- "bevy_asset",
- "bevy_core",
- "bevy_core_pipeline",
- "bevy_ecs",
- "bevy_hierarchy",
- "bevy_log",
- "bevy_math",
- "bevy_pbr",
- "bevy_reflect",
- "bevy_render",
- "bevy_scene",
- "bevy_tasks",
- "bevy_transform",
- "bevy_utils",
+ "bevy_animation 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_pbr 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_scene 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "gltf",
+ "percent-encoding",
+ "thiserror",
+]
+
+[[package]]
+name = "bevy_gltf"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "anyhow",
+ "base64",
+ "bevy_animation 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_pbr 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_scene 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "gltf",
  "percent-encoding",
  "thiserror",
@@ -406,10 +618,22 @@ name = "bevy_hierarchy"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_reflect",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "smallvec",
+]
+
+[[package]]
+name = "bevy_hierarchy"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "smallvec",
 ]
 
@@ -418,10 +642,21 @@ name = "bevy_input"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_math",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+]
+
+[[package]]
+name = "bevy_input"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
@@ -429,35 +664,72 @@ name = "bevy_internal"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_animation",
- "bevy_app",
- "bevy_asset",
- "bevy_audio",
- "bevy_core",
- "bevy_core_pipeline",
- "bevy_derive",
- "bevy_diagnostic",
- "bevy_ecs",
- "bevy_gilrs",
- "bevy_gltf",
- "bevy_hierarchy",
- "bevy_input",
- "bevy_log",
- "bevy_math",
- "bevy_pbr",
- "bevy_ptr",
- "bevy_reflect",
- "bevy_render",
- "bevy_scene",
- "bevy_sprite",
- "bevy_tasks",
- "bevy_text",
- "bevy_time",
- "bevy_transform",
- "bevy_ui",
- "bevy_utils",
- "bevy_window",
- "bevy_winit",
+ "bevy_animation 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_audio 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_diagnostic 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_gilrs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_gltf 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_pbr 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ptr 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_scene 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_text 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ui 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_winit 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "ndk-glue 0.5.2",
+]
+
+[[package]]
+name = "bevy_internal"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_animation 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_audio 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_diagnostic 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_gilrs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_gltf 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_pbr 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ptr 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_scene 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_tasks 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_text 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ui 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_winit 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "ndk-glue 0.5.2",
 ]
 
@@ -467,8 +739,22 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "android_log-sys",
- "bevy_app",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "console_error_panic_hook",
+ "tracing-log",
+ "tracing-subscriber",
+ "tracing-wasm",
+]
+
+[[package]]
+name = "bevy_log"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "android_log-sys",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "console_error_panic_hook",
  "tracing-log",
  "tracing-subscriber",
@@ -486,9 +772,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_macro_utils"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "quote",
+ "syn",
+ "toml",
+]
+
+[[package]]
 name = "bevy_math"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "glam",
+]
+
+[[package]]
+name = "bevy_math"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "glam",
 ]
@@ -502,20 +806,48 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_mikktspace"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "glam",
+]
+
+[[package]]
 name = "bevy_pbr"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_asset",
- "bevy_core_pipeline",
- "bevy_ecs",
- "bevy_math",
- "bevy_reflect",
- "bevy_render",
- "bevy_transform",
- "bevy_utils",
- "bevy_window",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bitflags",
+ "bytemuck",
+ "radsort",
+]
+
+[[package]]
+name = "bevy_pbr"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "bitflags",
  "bytemuck",
  "radsort",
@@ -527,13 +859,36 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 
 [[package]]
+name = "bevy_ptr"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+
+[[package]]
 name = "bevy_reflect"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_ptr",
- "bevy_reflect_derive",
- "bevy_utils",
+ "bevy_ptr 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "downcast-rs",
+ "erased-serde",
+ "glam",
+ "once_cell",
+ "parking_lot 0.12.1",
+ "serde",
+ "smallvec",
+ "thiserror",
+]
+
+[[package]]
+name = "bevy_reflect"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_ptr 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "downcast-rs",
  "erased-serde",
  "glam",
@@ -549,7 +904,19 @@ name = "bevy_reflect_derive"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_macro_utils",
+ "bevy_macro_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "proc-macro2",
+ "quote",
+ "syn",
+ "uuid",
+]
+
+[[package]]
+name = "bevy_reflect_derive"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_macro_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "proc-macro2",
  "quote",
  "syn",
@@ -562,22 +929,64 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "anyhow",
- "bevy_app",
- "bevy_asset",
- "bevy_core",
- "bevy_derive",
- "bevy_ecs",
- "bevy_encase_derive",
- "bevy_hierarchy",
- "bevy_log",
- "bevy_math",
- "bevy_mikktspace",
- "bevy_reflect",
- "bevy_render_macros",
- "bevy_time",
- "bevy_transform",
- "bevy_utils",
- "bevy_window",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_encase_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_mikktspace 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render_macros 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bitflags",
+ "codespan-reporting",
+ "copyless",
+ "downcast-rs",
+ "encase",
+ "futures-lite",
+ "hex",
+ "hexasphere",
+ "image",
+ "naga",
+ "once_cell",
+ "parking_lot 0.12.1",
+ "regex",
+ "serde",
+ "smallvec",
+ "thiserror",
+ "thread_local",
+ "wgpu",
+]
+
+[[package]]
+name = "bevy_render"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "anyhow",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_encase_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_mikktspace 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render_macros 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_time 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "bitflags",
  "codespan-reporting",
  "copyless",
@@ -603,7 +1012,18 @@ name = "bevy_render_macros"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_macro_utils",
+ "bevy_macro_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "bevy_render_macros"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_macro_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "proc-macro2",
  "quote",
  "syn",
@@ -615,15 +1035,36 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "anyhow",
- "bevy_app",
- "bevy_asset",
- "bevy_derive",
- "bevy_ecs",
- "bevy_hierarchy",
- "bevy_reflect",
- "bevy_render",
- "bevy_transform",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "ron",
+ "serde",
+ "thiserror",
+ "uuid",
+]
+
+[[package]]
+name = "bevy_scene"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "anyhow",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "ron",
  "serde",
  "thiserror",
@@ -635,16 +1076,41 @@ name = "bevy_sprite"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_asset",
- "bevy_core_pipeline",
- "bevy_ecs",
- "bevy_log",
- "bevy_math",
- "bevy_reflect",
- "bevy_render",
- "bevy_transform",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bitflags",
+ "bytemuck",
+ "copyless",
+ "fixedbitset",
+ "guillotiere",
+ "rectangle-pack",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
+name = "bevy_sprite"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "bitflags",
  "bytemuck",
  "copyless",
@@ -670,22 +1136,58 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_tasks"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "async-channel",
+ "async-executor",
+ "event-listener",
+ "futures-lite",
+ "num_cpus",
+ "once_cell",
+ "wasm-bindgen-futures",
+]
+
+[[package]]
 name = "bevy_text"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "ab_glyph",
  "anyhow",
- "bevy_app",
- "bevy_asset",
- "bevy_ecs",
- "bevy_math",
- "bevy_reflect",
- "bevy_render",
- "bevy_sprite",
- "bevy_transform",
- "bevy_utils",
- "bevy_window",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "glyph_brush_layout",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
+name = "bevy_text"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "ab_glyph",
+ "anyhow",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "glyph_brush_layout",
  "serde",
  "thiserror",
@@ -696,10 +1198,22 @@ name = "bevy_time"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_reflect",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "crossbeam-channel",
+]
+
+[[package]]
+name = "bevy_time"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "crossbeam-channel",
 ]
 
@@ -708,11 +1222,23 @@ name = "bevy_transform"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_hierarchy",
- "bevy_math",
- "bevy_reflect",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+]
+
+[[package]]
+name = "bevy_transform"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
@@ -720,22 +1246,49 @@ name = "bevy_ui"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_asset",
- "bevy_core_pipeline",
- "bevy_derive",
- "bevy_ecs",
- "bevy_hierarchy",
- "bevy_input",
- "bevy_log",
- "bevy_math",
- "bevy_reflect",
- "bevy_render",
- "bevy_sprite",
- "bevy_text",
- "bevy_transform",
- "bevy_utils",
- "bevy_window",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_text 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bytemuck",
+ "serde",
+ "smallvec",
+ "taffy",
+]
+
+[[package]]
+name = "bevy_ui"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_asset 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_core_pipeline 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_derive 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_hierarchy 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_log 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_reflect 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_render 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_sprite 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_text 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_transform 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "bytemuck",
  "serde",
  "smallvec",
@@ -756,15 +1309,42 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_utils"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "ahash",
+ "getrandom",
+ "hashbrown 0.12.3",
+ "instant",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
 name = "bevy_window"
 version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
- "bevy_app",
- "bevy_ecs",
- "bevy_input",
- "bevy_math",
- "bevy_utils",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "raw-window-handle",
+ "web-sys",
+]
+
+[[package]]
+name = "bevy_window"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "raw-window-handle",
  "web-sys",
 ]
@@ -775,12 +1355,31 @@ version = "0.8.0"
 source = "git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
 dependencies = [
  "approx",
- "bevy_app",
- "bevy_ecs",
- "bevy_input",
- "bevy_math",
- "bevy_utils",
- "bevy_window",
+ "bevy_app 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
+ "crossbeam-channel",
+ "raw-window-handle",
+ "wasm-bindgen",
+ "web-sys",
+ "winit",
+]
+
+[[package]]
+name = "bevy_winit"
+version = "0.8.0"
+source = "git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release#d08e3c8afb5edbc331b906bed5de3babf0bc48d8"
+dependencies = [
+ "approx",
+ "bevy_app 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_ecs 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_input 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_math 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_utils 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
+ "bevy_window 0.8.0 (git+https://github.com/paxsethorld/bevy-fork.git?branch=local-0-8-release)",
  "crossbeam-channel",
  "raw-window-handle",
  "wasm-bindgen",
@@ -1246,7 +1845,7 @@ checksum = "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b"
 name = "dolly"
 version = "0.2.0"
 dependencies = [
- "bevy",
+ "bevy 0.8.0 (git+https://github.com/Bendzae/bevy-fork.git?branch=local-0-8-release)",
 ]
 
 [[package]]
