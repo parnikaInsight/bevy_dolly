@@ -26,21 +26,21 @@ dolly = { path = "dolly" }
 #leafwing-input-manager = "0.4.1"
 
 [dependencies.bevy]
-git = "https://github.com/Bendzae/bevy-fork.git"
+git = "https://github.com/paxsethorld/bevy-fork.git"
 branch = "local-0-8-release"
 # version = "0.8.0"
 # features = ["render", "bevy_asset","bevy_scene",]
 # default-features = false
 
 [dev-dependencies.bevy]
-git = "https://github.com/Bendzae/bevy-fork.git"
+git = "https://github.com/paxsethorld/bevy-fork.git"
 branch = "local-0-8-release"
 # version = "0.8.0"
 # features = ["bevy_winit", "bevy_gltf"]
 # default-features = false
 
 [target.'cfg(target_os = "linux")'.dev-dependencies.bevy]
-git = "https://github.com/Bendzae/bevy-fork.git"
+git = "https://github.com/paxsethorld/bevy-fork.git"
 branch = "local-0-8-release"
 # version = "0.8.0"
 # features = ["x11", "wayland"]
